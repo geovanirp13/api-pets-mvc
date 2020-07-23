@@ -12,4 +12,8 @@ class Pet extends Model
         'age',
         'user_id'
     ];
+
+    public function user() {
+        return $this->belongsTo(User::class);
+    }
 }
