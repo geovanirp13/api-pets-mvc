@@ -85,7 +85,7 @@ Requisições para a API devem seguir os padrões:
   "number": "1010"
 }
 
-### Editar Usuário - (PUT) - http://127.0.0.1:8000/api/users/{25}
+### Editar Usuário - (PUT) - http://127.0.0.1:8000/api/users/{id}
 + Request
 {
   "name": "Usuário Teste Alteração",
