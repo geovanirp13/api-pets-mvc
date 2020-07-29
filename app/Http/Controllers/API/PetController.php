@@ -68,7 +68,7 @@ class PetController extends Controller
         } catch (\Exception $erro) {
             return response()->json([
                 'title' => 'Erro',
-                'msg' => 'Erro interno do servidor'
+                'msg'   => 'Erro interno do servidor'
             ], 500);
         }
     }
@@ -89,7 +89,7 @@ class PetController extends Controller
         } catch (\Exception $erro) {
             return response()->json([
                 'title' => 'Erro',
-                'msg' => 'Pet não encontrado!'
+                'msg'   => 'Pet não encontrado!'
             ], 404);
         }
     }
@@ -124,7 +124,7 @@ class PetController extends Controller
         } catch(\Exception $erro) {
             return response()->json([
                 'title' => 'Erro',
-                'msg' => 'Erro interno do servidor'
+                'msg'   => 'Erro interno do servidor'
             ], 500);
         }
     }
@@ -152,7 +152,7 @@ class PetController extends Controller
         } catch(\Exception $erro) {
             return response()->json([
                 'title' => 'Erro',
-                'msg' => 'Erro interno do servidor'
+                'msg'   => 'Erro interno do servidor'
             ], 500);
         }
     }
